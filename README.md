@@ -5,6 +5,8 @@ Blender addon for import/export of Tomb Raider Legend/Anniversary/Underworld mod
 
 In comparision to the Noesis plugin I previously made 3 years ago, this Blender addon is full of brand new features, available thanks to a deeper understanding of the format and thanks to Blender's API which allows to import much more metadata than Noesis allows.
 
+# The development of this addon heavily relied on code created by ChatGPT. None of the people credited as collaborators necessarily endorse this.
+
 ## Features include
 
 - Tomb Raider Legend, Legend Next Gen, Anniversary, Underworld Models Import
@@ -35,11 +37,12 @@ The addon is currently capable of importing cloth physics data, however nothing 
 
 ## What's planned
 
-- Write vertices from face corners instead of actual vertex data. This will greatly improve export times and fix issues such as UV bleeding when exporting a model with removed double vertices
+- Write vertices from face corners instead of actual vertex data. This will greatly improve export times and fix issues such as UV bleeding when exporting a model with no extra vertices from UV seams
 - Write Markups
 - Cloth export
 - Level Import/Export
 - Better handling of MFace data
+- Addition of quality of fixes such as adding a warning for exceeding 10,922 face limit on a mesh, ignoring loose vertices on export, fixing "list index out of range" when trying to import an exported mesh
 
 ## Known limits
 
