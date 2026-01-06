@@ -5,7 +5,7 @@ Blender addon for import/export of Tomb Raider Legend/Anniversary/Underworld mod
 
 In comparision to the Noesis plugin I previously made 3 years ago, this Blender addon is full of brand new features, available thanks to a deeper understanding of the format and thanks to Blender's API which allows to import much more metadata than Noesis allows.
 
-# The development of this addon heavily relied on code created by ChatGPT. None of the people credited as collaborators necessarily endorse this.
+# The development of this addon heavily relied on code created by ChatGPT. Research collaborators were not directly involved in the code.
 
 ## Features include
 
